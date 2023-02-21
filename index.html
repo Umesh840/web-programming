@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>GoTrek(Demo Version)</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<script src="https://maps.google.com/maps/api/js?sensor=false"> </script>  
 </head>
 
 <body>
@@ -55,6 +57,14 @@
         	<a href="aboutus.html" class="btn">read more</a>
     	</div>
 
+	</section>
+	<section class="video">
+		<div>
+			<video controls src="video.mp4"></video>
+		</div>
+		<div>
+			<audio src="audio.mp3" controls></audio>
+		</div>
 	</section>
 
 	<!-- about section ends -->
@@ -301,14 +311,12 @@
         	</div>
 
     	</div>
-
+		<div>
+			<button onclick="getlocation()">Get Location</button>
+		</div>
+		<div id="loc" style="width: 600px; height: 400px; margin-left: 200px;"></div>
 	</section>
 
-	<!-- services section ends -->
-
-	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-	<!-- custom js file link  -->
-	<script src="js/script.js"></script>
+	
 
 </html>

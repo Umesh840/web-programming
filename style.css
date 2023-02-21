@@ -31,3 +31,10 @@ a{
        
        
 }
+.video{
+    display: flex;
+    margin: 25px;
+}
+.video > div{
+    margin: 20px;
+}
