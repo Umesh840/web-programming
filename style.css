@@ -1,0 +1,33 @@
+*{
+    font-size: 20px
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    margin-left: 10px;
+}
+.para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+@keyframes animate {
+    10%{
+        transform: rotate3d(20);
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: chartreuse;
+    }
+       
+       
+}
